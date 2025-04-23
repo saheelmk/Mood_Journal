@@ -65,7 +65,6 @@ class _AddEntryScreenState extends State<AddEntryScreen> {
                           selectedEmojy = emoji;
                         });
                         print(emoji);
-                        print(selectedEmojy);
                       },
                     ),
                   ],
@@ -105,8 +104,6 @@ class _AddEntryScreenState extends State<AddEntryScreen> {
                     selectedTags = tags;
                   });
                   print(tags);
-
-                  print(selectedTags);
                 },
               ),
 
