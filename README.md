@@ -57,7 +57,7 @@ The result? A mood tracker app with:
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/mood-journal.git
+git clone https://github.com/saheelmk/Mood_Journal.git
 cd mood-journal
 flutter pub get
 flutter run
