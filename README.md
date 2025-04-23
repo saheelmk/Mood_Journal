@@ -57,7 +57,7 @@ The result? A mood tracker app with:
 Made with ☕, 😅, and way too many emojis by @saheelmksaheel
 
 📝 Read the behind-the-scenes blog post:
-👉 (Beginner vs Provider: A Love-Hate Story (with code & emojis))
+👉 (https://medium.com/@saheelmksaheel/beginner-vs-provider-a-love-hate-story-with-code-emojis-1150a22e053c)
 
 ## 🚀 Getting Started
 
