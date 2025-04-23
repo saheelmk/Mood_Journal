@@ -53,18 +53,20 @@ The result? A mood tracker app with:
 - ❌ Sentiment analysis integration (coming soon)
 
 ---
+## Author & Blog
+Made with ☕, 😅, and way too many emojis by @saheelmksaheel
+
+📝 Read the behind-the-scenes blog post:
+👉 (Beginner vs Provider: A Love-Hate Story (with code & emojis))
 
 ## 🚀 Getting Started
 
+---
 ```bash
 git clone https://github.com/saheelmk/Mood_Journal.git
 cd mood-journal
 flutter pub get
 flutter run
 
-```
-🙌 Author & Blog
-Made with ☕, 😅, and way too many emojis by @saheelmksaheel
 
-📝 Read the behind-the-scenes blog post:
-👉 Beginner vs Provider: A Love-Hate Story (with code & emojis)
+
