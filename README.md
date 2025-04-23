@@ -28,7 +28,7 @@ The result? A mood tracker app with:
 
 | Home Page | Add Mood |
 |-----------|----------|
-| ![Home](assets/screenshots/homemood-portrait.png) | ![Add Mood](assets/screenshots/addmood-portrait.png) |
+| ![Home](assets/screenshots/homepage-portrait.png) | ![Add Mood](assets/screenshots/addmood-portrait.png) |
 
 
 ---
