@@ -62,5 +62,9 @@ cd mood-journal
 flutter pub get
 flutter run
 
+```
+🙌 Author & Blog
+Made with ☕, 😅, and way too many emojis by @saheelmksaheel
 
-
+📝 Read the behind-the-scenes blog post:
+👉 Beginner vs Provider: A Love-Hate Story (with code & emojis)
