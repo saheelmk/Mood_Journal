@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mood_journal/providers/mood_provider.dart';
-
 import 'package:mood_journal/screens/add_entry_screen.dart';
 import 'package:mood_journal/widgets/mood_card.dart';
 import 'package:provider/provider.dart';
@@ -32,13 +31,20 @@ class HomeScreen extends StatelessWidget {
                 itemCount: moodProvider.moodEntry.length, // Temp static count
                 itemBuilder: (context, index) {
                   final mood = moodProvider.moodEntry[index];
-                  return Padding(
-                    padding: const EdgeInsets.only(bottom: 16.0),
-                    child: MoodCard(
-                      emoji: mood.emoji,
-                      tags: mood.tags,
-                      note: mood.note,
-                      dateTime: mood.dateTime, // Replace with your dynamic date
+                  return Dismissible(
+                    key: ValueKey(mood.id),
+                    onDismissed: (DismissDirection direction) {
+                      moodProvider.removeEntry(index);
+                    },
+                    child: Padding(
+                      padding: const EdgeInsets.only(bottom: 16.0),
+                      child: MoodCard(
+                        emoji: mood.emoji,
+                        tags: mood.tags,
+                        note: mood.note,
+                        dateTime:
+                            mood.dateTime, // Replace with your dynamic date
+                      ),
                     ),
                   );
                 },

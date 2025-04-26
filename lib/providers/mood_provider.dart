@@ -6,8 +6,15 @@ class MoodProvider with ChangeNotifier {
   final List<MoodEntry> _moodEntry = [];
   List<MoodEntry> get moodEntry => _moodEntry;
 
+  // for adding mood entries
   void addNewEntry(MoodEntry newEntry) {
     _moodEntry.add(newEntry);
+    notifyListeners();
+  }
+
+  // for removing mood entries
+  void removeEntry(int index) {
+    _moodEntry.removeAt(index);
     notifyListeners();
   }
 }

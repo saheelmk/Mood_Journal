@@ -154,6 +154,7 @@ class _AddEntryScreenState extends State<AddEntryScreen> {
     }
 
     final newEntry = MoodEntry(
+      id: DateTime.now().millisecondsSinceEpoch,
       emoji: selectedEmojy,
       tags: selectedTags,
       note: noteController.text,
